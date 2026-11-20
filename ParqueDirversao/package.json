@@ -1,0 +1,11 @@
+
+{
+    "name": "parque-diversao",
+    "version": "1.0.0",
+    "description": "Projeto Parque de Diversao",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "type": "commonjs"
+}
