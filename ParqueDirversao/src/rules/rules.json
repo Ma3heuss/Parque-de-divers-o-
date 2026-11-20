@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 {
@@ -43,3 +44,50 @@
         }
     }
 }
+=======
+
+
+{
+    "parque": {
+
+        "brinquedos": {
+            "roda_gigante": {
+                "nome": "Roda Gigante",
+                "capacidade": 20
+            },
+
+
+            "carro_ceu": {
+                "nome": "Carro Ceu",
+                "capacidade": 10
+            },
+            
+
+            "montanha_russa": {
+                "nome": "Montanha Russa",
+                "capacidade": 10
+            }
+        },
+
+        "restricoes": {
+            "montanha_russa": {
+                "idade": 20,
+                "altura_minima": 160,
+                "altura_maxima": 200
+            },
+
+            "roda_gigante": {
+                "idade": 16,
+                "altura_minima": 160,
+                "altura_maxima": 200
+            },
+
+            "carro_ceu": {
+                "idade": 7,
+                "altura_minima": 160,
+                "altura_maxima": 200
+            }
+        }
+    }
+}
+>>>>>>> 8bda450e27c8715ba1edff0031d1827cf56604ce

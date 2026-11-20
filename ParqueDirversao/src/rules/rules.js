@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 const parque = require("./rules.json");
 
@@ -30,3 +31,34 @@ function verificar_entrada(dados_pessoa, brinquedo) {
 }
 
 module.exports = verificar_entrada;
+=======
+const parque = require("./rules.json");
+
+
+
+
+function verificarEntrada(brinquedo, idade, altura) {
+
+    const regra = parque.parque.restricoes[brinquedo];
+
+    if (!regra) {
+        return "Brinquedo nao encontrado!";
+    }
+
+    if (idade < regra.idade_minima) {
+        return "Idade insuficiente!";
+    }
+
+    if (altura < regra.altura_minima) {
+        return "Altura insuficiente!";
+    }
+
+    if (altura > regra.altura_maxima) {
+        return "Altura acima do permitido!";
+    }
+
+    return "Pode entrar no brinquedo!";
+}
+
+module.exports = verificarEntrada;
+>>>>>>> 8bda450e27c8715ba1edff0031d1827cf56604ce
